@@ -11,7 +11,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: grey;
+  background-color: rgb(96, 163, 154);
   padding: 1rem;
   border: 2px;
 }
