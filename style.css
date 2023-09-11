@@ -16,7 +16,7 @@ nav {
   border: 2px;
 }
 ul a {
-  color: black;
+  color: rgb(93, 93, 192);
   text-decoration: none;
 }
 ul {
@@ -27,12 +27,15 @@ ul {
 /* Hero section*/
 
 #hero {
-  margin-top: 50px;
   padding: 20px 0;
-  max-width: 1200px;
+  max-width: 1500px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: paleturquoise;
+  background-size: cover;
+  background-position: center;
 }
 .hero-info {
   display: flex;
@@ -57,7 +60,7 @@ ul {
 .hero-info p {
   font-size: 14px;
   width: 70%;
-  color: red;
+  color: rgb(93, 93, 192);
 }
 .hero-info a {
   border-radius: 10px;
@@ -72,8 +75,8 @@ ul {
 /*foto*/
 
 .card {
-  width: 600px;
-  height: 300px;
+  width: 500px;
+  height: 200px;
   padding: 20px;
   border-radius: 20px;
   display: flex;
@@ -84,10 +87,16 @@ ul {
 /*Info*/
 
 #info {
-  margin-top: 50px;
-  padding: 20px 0;
-  max-width: 1200px;
+  max-width: 1500px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: paleturquoise;
+}
+
+.info p {
+  font-size: 20px;
+  width: 100%;
+  color: blue;
+  padding: 20px 40px;
 }
