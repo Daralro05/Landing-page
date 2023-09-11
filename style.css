@@ -48,6 +48,12 @@ ul {
   font-weight: 800;
   color: blue;
 }
+.hero-info h2 {
+  font-size: 30px;
+  width: 90%;
+  font-weight: 800;
+  color: rgb(93, 93, 192);
+}
 .hero-info p {
   font-size: 14px;
   width: 70%;
@@ -65,9 +71,9 @@ ul {
 }
 /*foto*/
 
-.hero-card {
-  width: 400px;
-  height: 200px;
+.card {
+  width: 600px;
+  height: 300px;
   padding: 20px;
   border-radius: 20px;
   display: flex;
