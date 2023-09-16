@@ -100,3 +100,48 @@ ul {
   color: blue;
   padding: 20px 40px;
 }
+#card {
+  margin-top: 10px;
+  padding: 20px 0;
+  max-width: 1500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  border: solid;
+  align-items: center;
+  .card p {
+    gap: 15px;
+  }
+}
+.div-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 30vh;
+  padding: 40px;
+  max-width: 300px;
+  border: solid;
+  border-radius: 8px;
+}
+.card-img {
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 80px;
+  height: 80px;
+}
+.cards-container p {
+  font-size: 12px;
+  width: 70%;
+  color: black;
+  gap: 10px;
+}
