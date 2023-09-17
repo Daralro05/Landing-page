@@ -111,11 +111,12 @@ ul {
   border-radius: 10px;
   border: solid;
   align-items: center;
-  background-color: rgb(190, 178, 190);
-  .card p {
-    gap: 15px;
-  }
+  background-color: goldenrod;
 }
+.card p {
+  gap: 15px;
+}
+
 .info-container {
   display: flex;
   justify-content: space-around;
@@ -148,6 +149,7 @@ ul {
 }
 .cards-container p {
   font-size: 14px;
+  font-weight: 400;
   width: 70%;
   color: black;
   gap: 10px;
