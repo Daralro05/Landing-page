@@ -111,26 +111,33 @@ ul {
   border-radius: 10px;
   border: solid;
   align-items: center;
+  background-color: rgb(190, 178, 190);
   .card p {
     gap: 15px;
   }
 }
-.div-container {
+.info-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1200px;
+  width: 100%;
+  padding: 20px;
 }
 .cards-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 30vh;
-  padding: 40px;
+  width: 250px;
+  height: 250px;
+  padding: 20px;
   max-width: 300px;
   border: solid;
   border-radius: 8px;
+  background-color: grey;
 }
 .card-img {
   justify-content: center;
@@ -140,8 +147,9 @@ ul {
   height: 80px;
 }
 .cards-container p {
-  font-size: 12px;
+  font-size: 14px;
   width: 70%;
   color: black;
   gap: 10px;
+  text-align: center;
 }
