@@ -112,7 +112,7 @@ ul {
   border: solid;
   align-items: center;
   /* background-color: goldenrod;*/
-  background: linear-gradient(to right, #8360c3, #2ebf91);
+  background: linear-gradient(to right, rgb(93, 93, 192), paleturquoise);
 }
 .card p {
   gap: 15px;
@@ -155,4 +155,15 @@ ul {
   color: black;
   gap: 10px;
   text-align: center;
+}
+#Contacto {
+  padding: 20px 0;
+  max-width: 1500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: paleturquoise;
+  background-size: cover;
+  background-position: center;
 }
