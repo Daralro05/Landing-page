@@ -147,6 +147,10 @@ ul {
   gap: 20px;
   width: 80px;
   height: 80px;
+  padding: 10px;
+}
+.cards-container h3 {
+  padding: 10px;
 }
 .cards-container p {
   font-size: 14px;
@@ -164,6 +168,7 @@ ul {
   justify-content: center;
   align-items: center;
   background-color: paleturquoise;
-  background-size: cover;
-  background-position: center;
+  flex-direction: column;
+  /*background-size: cover;
+  background-position: center;*/
 }
