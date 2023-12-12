@@ -182,6 +182,7 @@ ul {
   color: rgb(209, 23, 23);
   gap: 10px;
   text-align: center;
+  /*...............................................................................*/
 }
 #Contacto {
   padding: 20px 0;
@@ -190,8 +191,9 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-
   flex-direction: column;
+  height: auto;
+
   /*background-size: cover;
   background-position: center;*/
   background-color: grey;
@@ -208,6 +210,7 @@ ul {
   color: black;
   gap: 15px;
   align-items: center;
+  text-align: center;
 }
 .text {
   font-size: 18px;
@@ -216,6 +219,7 @@ ul {
   gap: 15px;
   align-items: center;
   padding: 10px;
+  text-align: end;
 }
 
 .buttons {
@@ -224,7 +228,10 @@ ul {
   gap: 20px;
   padding: 15px;
   justify-content: center;
-  align-items: center;
+  align-content: center;
+
+  /*align-items: end;
+  align-content: end;*/
 }
 .buttons p {
   font-size: 18px;
@@ -232,6 +239,7 @@ ul {
   color: black;
   gap: 15px;
   align-items: center;
+  justify-content: center;
 }
 .buttons a {
   text-decoration: none;
@@ -250,6 +258,39 @@ ul {
 .buttons a:hover {
   transform: scale(1.2);
 }
+.text {
+  justify-content: flex end;
+}
+.ubicacion {
+  justify-content: end;
+  text-align: center;
+}
+iframe.mapa {
+  width: 250px;
+  height: 150px;
+  align-content: flex end;
+  justify-content: end;
+  border-radius: 15px;
+}
+.Contacto-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  background-color: rgb(207, 216, 213);
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 250px;
+  height: auto;
+  text-align: center;
+  margin-top: 15px;
+}
+.Contacto-form {
+  color: rgb(93, 93, 192);
+}
+
+/*.........................................................................................................*/
 
 footer {
   max-width: 1500px;
